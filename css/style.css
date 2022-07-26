@@ -1,0 +1,91 @@
+/*font-family: 'Roboto', sans-serif;
+font-family: 'Trispace', sans-serif;*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*header*/
+header {
+    background-color: #1B1A17;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+/*body*/
+body {
+    text-align: center;
+    background-color: #1B1A17;
+}
+li a {
+    text-decoration: none;
+    font-size: 36px;
+    color: #F0A500;
+}
+li {
+    display: inline-block;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+ul {
+    text-align: center;
+}
+.tituloPrincipal {
+    padding: 10px;
+    background-color: #F0A500;
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Roboto', sans-serif;
+}
+p {
+    background-color: #E45826;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    font-size: 18px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+section {
+display: grid;
+gap: 10px;
+margin-bottom: 15px;
+justify-items: center;
+grid-template-columns: 1fr;
+grid-template-rows: 1fr;
+grid-template-areas:
+"imagenesRuteras";
+}
+img {
+    border: 5px solid #F0A500;
+}
+form {
+    color: #E6D5B8;
+    border: 20px solid #F0A500;
+    border-radius: 16px;
+    margin-left: 90px;
+    margin-right: 90px;
+    text-align: center;
+}
+.camioneta {
+    max-width: 600px;
+    max-height: 600px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+/*footer*/
+footer {
+    color: #E6D5B8;
+    background-color: #E45826;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-family: 'Roboto', sans-serif;
+}
+@media (min-width: 650px) {
+    .imagenesRuteras {
+    margin: 0;
+    grid-template-areas: 
+    "imagenesRuteras imagenesRuteras";
+    justify-items: auto;
+    margin-right: 15%;
+    }
+}
